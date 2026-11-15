@@ -1,0 +1,137 @@
+{
+  "settings": {
+    "appName": "Earn India",
+    "botUsername": "EarnBDBot",
+    "supportUsername": "zerox6t9",
+    "monetagZoneId": "11148173",
+    "perAdEarning": 0.25,
+    "dailyLimit": 10,
+    "referralBonus": 2,
+    "dailyFreeCards": 1,
+    "spinCard1Price": 5,
+    "spinCard5Price": 20,
+    "spinCard10Price": 35,
+    "spinRewards": [
+      0.2,
+      1,
+      0.5,
+      2,
+      0.2,
+      5,
+      0.5,
+      10
+    ],
+    "checkinRewards": [
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.5,
+      2,
+      3
+    ],
+    "vipSilver": 100,
+    "vipGold": 500,
+    "vipPlatinum": 2000,
+    "maintenance": false,
+    "logoUrl": "",
+    "themePrimary": "#2AABEE",
+    "themeSecondary": "#1A73E8"
+  },
+  "withdrawMethods": {
+    "upi": {
+      "key": "upi",
+      "name": "UPI",
+      "iconUrl": "",
+      "accountLabel": "UPI ID",
+      "accountPlaceholder": "name@upi",
+      "validate": "upi",
+      "minWithdraw": 50,
+      "maxWithdraw": 0,
+      "processingTime": "Within 24 hours",
+      "instructions": "Paid manually by the admin to your UPI / number after verification.",
+      "active": true,
+      "order": 1
+    },
+    "phonepe": {
+      "key": "phonepe",
+      "name": "PhonePe",
+      "iconUrl": "",
+      "accountLabel": "PhonePe UPI ID",
+      "accountPlaceholder": "number@ybl",
+      "validate": "upi",
+      "minWithdraw": 50,
+      "maxWithdraw": 0,
+      "processingTime": "Within 24 hours",
+      "instructions": "Paid manually by the admin to your UPI / number after verification.",
+      "active": true,
+      "order": 2
+    },
+    "gpay": {
+      "key": "gpay",
+      "name": "Google Pay",
+      "iconUrl": "",
+      "accountLabel": "GPay UPI ID",
+      "accountPlaceholder": "name@okaxis",
+      "validate": "upi",
+      "minWithdraw": 50,
+      "maxWithdraw": 0,
+      "processingTime": "Within 24 hours",
+      "instructions": "Paid manually by the admin to your UPI / number after verification.",
+      "active": true,
+      "order": 3
+    },
+    "paytm": {
+      "key": "paytm",
+      "name": "Paytm",
+      "iconUrl": "",
+      "accountLabel": "Paytm mobile number",
+      "accountPlaceholder": "98XXXXXXXX",
+      "validate": "phone",
+      "minWithdraw": 50,
+      "maxWithdraw": 0,
+      "processingTime": "Within 24 hours",
+      "instructions": "Paid manually by the admin to your UPI / number after verification.",
+      "active": true,
+      "order": 4
+    }
+  },
+  "tasks": {
+    "task_001": {
+      "title": "Join our Telegram channel",
+      "type": "telegram",
+      "url": "https://t.me/zerox6t9",
+      "reward": 1,
+      "active": true,
+      "createdAt": 1700000000000,
+      "wait": 10
+    },
+    "task_002": {
+      "title": "Subscribe to our YouTube channel",
+      "type": "youtube",
+      "url": "https://youtube.com",
+      "reward": 1,
+      "active": true,
+      "createdAt": 1700000001000,
+      "wait": 10
+    },
+    "task_003": {
+      "title": "Like our Facebook page",
+      "type": "facebook",
+      "url": "https://facebook.com",
+      "reward": 1,
+      "active": true,
+      "createdAt": 1700000002000,
+      "wait": 10
+    }
+  },
+  "notifications": {
+    "notif_001": {
+      "title": "🎉 Welcome to Earn India!",
+      "body": "Watch ads daily, check in and refer friends to earn. Withdraw to UPI once you reach ₹50.",
+      "showBanner": true,
+      "sentBy": "admin",
+      "timestamp": 1700000000000
+    }
+  }
+}
